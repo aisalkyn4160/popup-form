@@ -71,7 +71,7 @@ body{
 .popup__button:hover {
 	background: linear-gradient(180deg, #ffe496 0%, #ffbd00 100%);
 }
-@media (min-height: 250px) and (max-height: 320px){
+@media (max-height: 350px){
 /*   body {
     min-width: 100%;
     overflow-x: hidden;
@@ -88,9 +88,20 @@ body{
    .popup__form{
    	height: 94%;
    	overflow: auto;
+   	justify-content: center;
    }
    .popup__form p{
    	font-size: 19px;
    	margin-bottom: 5px;
    }
+}
+@media (max-height: 325px){
+	.popup__form{
+		padding: 20px 32px;
+	}
+}
+@media (max-height: 280px){
+	.popup__form{
+		padding: 5px 32px;
+	}
 }
