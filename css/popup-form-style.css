@@ -86,7 +86,6 @@ body{
     transform: translate(0px, 0px);
    }*/
    .popup__form{
-   	padding: 20px 32px;
    	height: 94%;
    	overflow: auto;
    }
