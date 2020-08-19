@@ -71,7 +71,7 @@ body{
 .popup__button:hover {
 	background: linear-gradient(180deg, #ffe496 0%, #ffbd00 100%);
 }
-@media (min-height: 250px) and (max-height: 340px){
+@media (min-height: 250px) and (max-height: 320px){
 /*   body {
     min-width: 100%;
     overflow-x: hidden;
