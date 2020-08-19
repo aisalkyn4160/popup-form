@@ -87,7 +87,7 @@ body{
    }*/
    .popup__form{
    	height: 94%;
-   	min-height: 335px;
+   	max-height: 335px;
    }
 
 }
